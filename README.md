@@ -1,15 +1,3 @@
-AnimatedTextKit(
-  animatedTexts: [
-   CustomAnimatedText(
-      'Insert Text Here',
-      textStyle: const TextStyle(
-        fontSize: 32.0,
-        fontWeight: FontWeight.bold,
-      ),
-    ),
-  ],
-),
-
 # 🎬 CineSphere - Movie Streaming Platform
 
 🚀 **[Live Now](https://aswinash05.github.io/Movie_Streaming_Platform/)**
