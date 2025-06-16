@@ -1,4 +1,4 @@
-# 🎬 CineSphere - Movie Streaming Platform
+![CineSphere Movie Streaming Platform](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Movie%20Streaming%20Platform%20CineSphere!&fontSize=32)
 
 🚀 **[Live Now](https://aswinash05.github.io/Movie_Streaming_Platform/)**
 
