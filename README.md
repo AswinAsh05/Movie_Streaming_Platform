@@ -8,6 +8,17 @@ Welcome to **CineSphere** – a futuristic, responsive movie streaming platform 
 
 ---
 
+## Preview
+
+!![Cineweb](https://github.com/user-attachments/assets/0cf494de-a7d8-4590-b537-738d86abefb6)
+!![Cineweb1](https://github.com/user-attachments/assets/683f8735-dd75-4269-a91c-e0af01d31444)
+!![Cineweb2](https://github.com/user-attachments/assets/78d7f969-96b5-42d0-8ecd-8b294d05e5de)
+!![Cineweb3](https://github.com/user-attachments/assets/5b7d1b9a-b48e-4e41-9bb6-a7ba08abd18c)
+!![Cineweb4](https://github.com/user-attachments/assets/440caaad-facf-488f-94a1-4bb052239569)
+
+---
+
+
 ## ✨ Features
 
 🎞️ **Interactive Homepage** – Stylish movie cards with smooth hover effects  
