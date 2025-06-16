@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment | CineSphere</title>
+  <link rel="stylesheet" href="payment.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="payment-container">
+    <h2 id="plan-title">Loading...</h2>
+    <p id="plan-price">Loading price...</p>
+
+    <form class="payment-form">
+      <input type="text" placeholder="Cardholder Name" required />
+      <input type="text" placeholder="Card Number" maxlength="16" required />
+      <div class="card-details">
+        <input type="text" placeholder="MM/YY" maxlength="5" required />
+        <input type="text" placeholder="CVV" maxlength="3" required />
+      </div>
+      <button type="submit">Pay Now</button>
+    </form>
+  </div>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const params = new URLSearchParams(window.location.search);
+      const plan = params.get("plan");
+
+      const title = document.getElementById("plan-title");
+      const price = document.getElementById("plan-price");
+
+      if (plan === "premium") {
+        title.textContent = "Premium Plan";
+        price.textContent = "₹499/month";
+      } else {
+        title.textContent = "Basic Plan";
+        price.textContent = "₹199/month";
+      }
+
+      document.querySelector(".payment-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        alert(`Payment for the ${plan === "premium" ? "Premium" : "Basic"} Plan was successful!`);
+        window.location.href = "index.html";
+      });
+    });
+  </script>
+</body>
+</html>

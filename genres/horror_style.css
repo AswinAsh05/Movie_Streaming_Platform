@@ -1,0 +1,117 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Fixed Transparent Genre Navbar */
+.genre-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.genre-navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8c52ff;
+}
+
+.genre-navbar .back-home {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.genre-navbar .back-home:hover {
+  color: #8c52ff;
+}
+
+/* Section Styling */
+.section {
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #8c52ff;
+}
+
+/* Card Grid */
+.card-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Card Styling */
+.card {
+  width: 198.6px;
+  height: 333.9px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(140, 82, 255, 0.4);
+}
+
+.card img {
+  width: 198.6px;
+  height: 297.9px;
+  object-fit: cover;
+  display: block;
+}
+
+.card p {
+  height: 36px;
+  line-height: 36px;
+  font-size: 1rem;
+  color: #ccc;
+  background-color: transparent;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    width: 180px;
+    height: auto;
+  }
+
+  .card img {
+    width: 180px;
+    height: auto;
+  }
+}

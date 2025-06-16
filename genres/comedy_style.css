@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+.genre-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+.genre-navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #b388ff;
+}
+
+.genre-navbar .back-home {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.genre-navbar .back-home:hover {
+  color: #8c52ff;
+}
+
+.section {
+  padding: 6rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #b388ff;
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 180px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card p {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}

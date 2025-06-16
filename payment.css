@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.payment-container {
+  background-color: #181818;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(140, 82, 255, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.payment-container h2 {
+  color: #8c52ff;
+  margin-bottom: 0.5rem;
+}
+
+.payment-container p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.card-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.payment-form button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #8c52ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.payment-form button:hover {
+  background: #6b30e5;
+}
