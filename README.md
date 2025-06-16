@@ -15,16 +15,7 @@ Welcome to **CineSphere** – a futuristic, responsive movie streaming platform 
 📁 **Organized Folder Structure** – All genre pages inside `genres/` folder  
 📄 **Individual Movie Pages** – Centered poster, cast/crew info, and a Play button  
 📱 **Fully Responsive** – Works great on desktop, tablet, and mobile  
-💫 **Pre-built Animations** – Implemented using [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) for cool effects on scroll
 
----
-
-## 🎨 Animations Included
-
-The platform uses `AOS` for pre-built CSS animations, including:
-- `fade-up`, `fade-right`, `zoom-in`, `flip-left`, and more  
-- Activated on scroll for a smooth and modern user feel  
-- Lightweight and optimized for performance
 
 ---
 
