@@ -34,4 +34,3 @@ The platform uses `AOS` for pre-built CSS animations, including:
 HTML5       - Markup  
 CSS3        - Styling and layout  
 JavaScript  - Logic and interactivity  
-AOS         - Pre-built animation library (CSS-based)
